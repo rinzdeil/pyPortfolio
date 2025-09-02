@@ -31,7 +31,11 @@ with body_left:
         st.header(row["title"])
         st.text(row["description"])
         st.image(row["image"], width=300)
+        st.write(f"[{row['title']}]({row['url']})")
 
 with body_right:
     for index, row in df[2:].iterrows():
         st.header(row["title"])
+        st.text(row["description"])
+        st.image(row["image"], width=300)
+        st.write(f"[{row['title']}]({row['url']})")
