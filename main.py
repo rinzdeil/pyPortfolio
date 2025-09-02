@@ -24,18 +24,18 @@ with intro_right:
 
 st.text("Below you can find some of the apps I have built in Python. Feel free to contact me!")
 
-body_left, body_right = st.columns(2)
+body_left, body_space, body_right = st.columns([1.5, 0.3, 1.5])
 
 with body_left:
     for index, row in df[0:2].iterrows():
         st.header(row["title"])
         st.text(row["description"])
-        st.image(row["image"], width=300)
+        st.image(row["image"])
         st.write(f"[{row['title']}]({row['url']})")
 
 with body_right:
     for index, row in df[2:].iterrows():
         st.header(row["title"])
         st.text(row["description"])
-        st.image(row["image"], width=300)
+        st.image(row["image"])
         st.write(f"[{row['title']}]({row['url']})")
