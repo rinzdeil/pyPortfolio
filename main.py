@@ -1,4 +1,7 @@
 import streamlit as st
+import pandas as pd
+
+df = pd.read_csv("data.csv")
 
 st.set_page_config(
     page_title = "Portfolio",
@@ -24,6 +27,11 @@ st.text("Below you can find some of the apps I have built in Python. Feel free t
 body_left, body_right = st.columns(2)
 
 with body_left:
-    st.title("App Title")
-    st.text("App Description")
-    st.image("images/logo.jpg", width=300)
+    for index, row in df[0:2].iterrows():
+        st.header(row["title"])
+        st.text(row["description"])
+        st.image(row["image"], width=300)
+
+with body_right:
+    for index, row in df[2:].iterrows():
+        st.header(row["title"])

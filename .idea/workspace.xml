@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a60b8358-63fd-4de4-8fd8-6b966baf7962" name="Changes" comment="initial commit">
+    <list default="true" id="a60b8358-63fd-4de4-8fd8-6b966baf7962" name="Changes" comment="fixed data.csv to work with main.py">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -90,7 +90,31 @@
       <option name="project" value="LOCAL" />
       <updated>1756738719374</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="edited header columns, added images for Day 21">
+      <option name="closed" value="true" />
+      <created>1756821302714</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1756821302714</updated>
+    </task>
+    <task id="LOCAL-00005" summary="imported generated images from imageFX">
+      <option name="closed" value="true" />
+      <created>1756821326431</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1756821326431</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fixed data.csv to work with main.py">
+      <option name="closed" value="true" />
+      <created>1756822297380</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1756822297380</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -106,6 +130,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="edited header columns, added images for Day 21" />
+    <MESSAGE value="imported generated images from imageFX" />
+    <MESSAGE value="fixed data.csv to work with main.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed data.csv to work with main.py" />
   </component>
 </project>
