@@ -25,10 +25,18 @@ author = "agent"
 [[workflows.workflow.tasks]]
 task = "shell.exec"
 args = "streamlit run main.py --server.address=0.0.0.0 --server.port=5000 --server.headless=true --browser.gatherUsageStats=false"
-waitForPort = 5000
 
 [workflows.workflow.metadata]
 outputType = "webview"
+
+[[workflows.workflow]]
+name = "Run Send Email"
+mode = "sequential"
+author = 46152361
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python company/send_email.py"
 
 [[ports]]
 localPort = 5000
